@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #003500;
+  --color-secondary: #006800;
+  --color-darck: #78dcca;
+  --color-active: #009829;
+  --color-backgr: #042800;
+  --container-: {
+    center: true,
+    padding: {
+      DEFAULT: "1rem",
+      sm: "2rem",
+      lg: "4rem",
+      xl: "5rem",
+      "2xl": "6rem",
+    }, 
+  };
+}
+
